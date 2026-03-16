@@ -25,17 +25,23 @@ O projeto foi desenvolvido utilizando **Java** e organizado em pacotes para faci
 
 # 📂 Estrutura do Projeto
 
-src
-├─ exercicios01
-│   └─ MenuOperacoesSwitch.java
-│
-├─ exercicios02
-│   ├─ RepeticaoMesWhile.java
-│   └─ RepeticaoQtdIdadeFor.java
-│
-└─ exercicios03
-├─ DezNumNovosValoresArray.java
-└─ DezNumInformacoesArray.java
+```
+src/
+└── br/
+    └── edu/
+        └── fatecpg/
+            └── tecprog/
+                ├── exercicios01/
+                │   └── MenuOperacoesSwitch.java
+                │
+                ├── exercicios02/
+                │   ├── RepeticaoMesWhile.java
+                │   └── RepeticaoQtdIdadeFor.java
+                │
+                └── exercicios03/
+                    ├── DezNumNovosValoresArray.java
+                    └── DezNumInformacoesArray.java
+```
 
 ---
 
@@ -67,12 +73,13 @@ Conceitos utilizados:
 O programa recebe um número de **1 a 12** e exibe o **mês correspondente**.
 
 Exemplo:
-
+```
 1 → Janeiro
 2 → Fevereiro
 3 → Março
 ...
 12 → Dezembro
+```
 
 Caso o número seja inválido, o programa exibe:
 
@@ -93,8 +100,9 @@ O programa continua executando até o usuário digitar **0**.
 O programa solicita a **idade de 10 pessoas** e calcula quantas possuem **idade maior ou igual a 18 anos**.
 
 Exemplo de saída:
-
+```
 Quantidade de pessoas com idade maior ou igual a 18 anos: 6
+```
 
 ### Conceitos utilizados
 
@@ -139,12 +147,13 @@ O programa solicita **10 números inteiros** e calcula:
 * Quais são os números ímpares
 
 Exemplo:
-
+```
 Quantidade de números pares: 4
 Números pares: 2 8 10 14
 
 Quantidade de números ímpares: 6
 Números ímpares: 1 3 5 7 9 11
+```
 
 ### Conceitos utilizados
 
